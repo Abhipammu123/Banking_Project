@@ -9,7 +9,7 @@ pipeline {
     stage('CheckOut') {
       steps {
         echo 'Checkout the source code from GitHub'
-        git branch: 'main', url: 'https://github.com/Abhipammu123/star-agile-banking-finance.git'
+        git branch: 'main', url: 'https://github.com/Abhipammu123/Banking_Project.git'
             }
     }
     
